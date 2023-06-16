@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "2MDXGda1IsdP+BYHHMjiiksvClWOqNLXQe/YCuKcAikYDbeS+DX2sPI9PoE8X8zxwaPNAdy/417uaR+vB10rYw==",
+  "success": true,
+  "projectFilePath": "D:\\C# Desk\\ASP.NETCore6WebAPICRUDWithEntityFramework(CodeFirstApproach)\\ASP.NETCore6WebAPICRUDWithEntityFramework(CodeFirstApproach).csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ICT03\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\ICT03\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ICT03\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\ICT03\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\ICT03\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\ICT03\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
