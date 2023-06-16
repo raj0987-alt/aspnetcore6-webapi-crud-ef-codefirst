@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xhqM5t1yeJqs+AMAu04NNlZi9d5YeON24KnQHVAgMwA=",
+  "Source": "ASP.NETCore6WebAPICRUDWithEntityFramework(CodeFirstApproach)",
+  "BasePath": "_content/ASP.NETCore6WebAPICRUDWithEntityFramework(CodeFirstApproach)",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
