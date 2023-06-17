@@ -20,7 +20,14 @@ namespace ASP.NETCore6WebAPICRUDWithEntityFramework_CodeFirstApproach_.Controlle
         {
             return Ok(await _context.Employees.ToListAsync());
         }
+        [HttpGet("{id}")]
+        public async Task<ActionResult<List<Employee>>> Get(int id)
+        {
+            var employee = await _context.Employees.FindAsync(id);
+            if (employee == null)
+                return BadRequest("Employee Not Found !!");
+            return Ok(employee);
+        }
 
-        
     }
 }
