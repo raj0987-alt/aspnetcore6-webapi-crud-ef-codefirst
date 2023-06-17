@@ -75,5 +75,15 @@ namespace ASP.NETCore6WebAPICRUDWithEntityFramework_CodeFirstApproach_.Controlle
             
             return Ok(employees);
         }
+
+        [HttpDelete]
+        public async Task<ActionResult<List<Employee>>> DeleteEmployee(int id)
+        {
+            var employee = employees.Find(e => e.Id == id);
+            if (employee == null)
+                return BadRequest("Employee Not Found");
+            employees.Remove(employee);
+            return Ok(employees);
+        }
     }
 }
