@@ -29,5 +29,13 @@ namespace ASP.NETCore6WebAPICRUDWithEntityFramework_CodeFirstApproach_.Controlle
             return Ok(employee);
         }
 
+        [HttpPost]
+        public async Task<ActionResult<List<Employee>>> AddEmployee(Employee employee)
+        {
+            _context.Employees.Add(employee);
+            await _context.SaveChangesAsync();
+            return Ok(await _context.Employees.ToListAsync());
+        }
+
     }
 }
