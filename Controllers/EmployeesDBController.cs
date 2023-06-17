@@ -47,8 +47,19 @@ namespace ASP.NETCore6WebAPICRUDWithEntityFramework_CodeFirstApproach_.Controlle
             employee.FirstName = request.FirstName;
             employee.LastName = request.LastName;
             employee.Email = request.Email;
+            await _context.SaveChangesAsync();
             return Ok(await _context.Employees.ToListAsync());
         }
 
+        [HttpDelete]
+        public async Task<ActionResult<List<Employee>>> DeleteEmployee(int id)
+        {
+            var employee = await _context.Employees.FindAsync(id);
+            if (employee == null)
+                return BadRequest("Employee Not Found");
+            _context.Employees.Remove(employee);
+            await _context.SaveChangesAsync();
+            return Ok(await _context.Employees.ToListAsync());
+        }
     }
 }
